@@ -68,7 +68,7 @@ h1 {
   padding: 20px;
   border-radius: 10px;
   display: inline-block;
-  color: rgb(255, 255, 255);
+  color: #1B1E18;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -135,14 +135,14 @@ h1 {
   text-align: center;
   padding: 15px;
   border-radius: 8px;
-  color: rgb(5, 5, 5);
+  color: #1B1E18;
 }
 
 .basic-text {
   text-align: center;
   padding: 15px;
   border-radius: 8px;
-  color: rgb(5, 5, 5);
+  color: #1B1E18;
 }
 
 .social {
