@@ -195,23 +195,9 @@ h1 {
 
 .form-box {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  padding: 400px;
-  max-width: 1200px;
 }
 
-.google-form{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.google-form {
+  text-align: center;
   margin: 0 auto;
-  max-width: 1200px;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
 }
-
