@@ -170,6 +170,18 @@ h1 {
   max-width: 1000px;
 }
 
+.basic-list {
+  text-align: center;
+  padding: 15px;
+  color: rgb(27, 30, 24);
+  overflow: hidden;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .social {
   background-color: #333;
   overflow: hidden;
