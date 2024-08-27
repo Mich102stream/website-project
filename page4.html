@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Gamer's Travel</title>
+    <title>Greece</title>
   </head>
   <body>
     <div class="navbar">
@@ -20,18 +20,22 @@
     <hr />
     <header class="header">
       <div class="header-content">
-        <h1>Gamer's Express</h1>
+        <h1>Recommend a location</h1>
       </div>
     </header>
     <hr />
-    <div class="home-image-container">
-      <img src="travel_agency.jpeg" class="home-image" alt="Home Image" />
+    <div class="form-box">
+      <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" class="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" class="email" name="email" required />
+        <label for="reason">Reason:</label>
+        <textarea class="reason" name="reason" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
     </div>
-    <h2 class="title">Welcome To Gamer Travel</h2>
-    <p class="basic-text">
-      We aim to help you explore the world, look at the regions that your
-      favorite games are inspired from.
-    </p>
+    <hr>
     <nav class="social">
       <ul>
         <li>

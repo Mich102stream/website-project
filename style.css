@@ -134,15 +134,24 @@ h1 {
 .title {
   text-align: center;
   padding: 15px;
-  border-radius: 8px;
+  margin-bottom: 40px;
   color: rgb(27, 30, 24);
+  background-color: #c4beb5;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .basic-text {
   text-align: center;
   padding: 15px;
-  border-radius: 8px;
   color: rgb(27, 30, 24);
+  background-color: #c4beb5;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .social {
@@ -177,6 +186,17 @@ h1 {
 .social li a:hover {
   background-color: #3068cc;
   color: rgb(75, 75, 75);
+}
+
+.list{
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #c4beb5;
+  overflow: hidden;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 .gallery-wrapper {
@@ -221,9 +241,44 @@ h1 {
 
 .form-box {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c4beb5;
+  border-color: black;
+  overflow: hidden;
+  padding: 20px;
+  margin-bottom: auto;
+  max-width: 1000px;
 }
 
-.google-form {
+.name{
   text-align: center;
-  margin: 0 auto;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.email{
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.location{
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.reason{
+  text-align: center;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
 }

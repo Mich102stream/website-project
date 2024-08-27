@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <title>Recommend</title>
+    <title>Greece</title>
   </head>
   <body>
     <div class="navbar">
@@ -25,16 +25,17 @@
     </header>
     <hr />
     <div class="form-box">
-      <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSc94pyxo6sqVzD92x4sGHI-nmyFfstlGfUtaeyi-1E7o6suSQ/viewform?embedded=true"
-        class="google-form"
-        width="640"
-        height="856"
-        frameborder="0"
-        marginheight="0"
-        marginwidth="0"
-        >Loading…</iframe
-      >
+      <form action="submit.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" class="name" name="name" required />
+        <label for="email">Email:</label>
+        <input type="email" class="email" name="email" required />
+        <label for="location">Location:</label>
+        <input type="text" class="location" name="location" required />
+        <label for="reason">Reason:</label>
+        <textarea class="reason" name="reason" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
     </div>
     <hr>
     <nav class="social">
@@ -47,6 +48,7 @@
           <a href="https://www.instagram.com/" target="_blank">Instagram</a>
         </li>
         <li><a href="https://uk.linkedin.com/" target="_blank">LinkedIn</a></li>
+        <li><a href="page4.html">Contact Us</a></li>
       </ul>
     </nav>
   </body>
