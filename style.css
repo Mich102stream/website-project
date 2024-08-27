@@ -131,12 +131,29 @@ h1 {
   height: auto;
 }
 
+.home-text-container {
+  justify-content: center;
+  max-width: 1000px;
+  background-color: #c4beb5;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.text-container {
+  justify-content: center;
+  max-width: 1000px;
+  background-color: #c4beb5;
+  border: 2px solid black;
+  padding: 20px;
+  margin: 0 auto;
+}
+
 .title {
   text-align: center;
   padding: 15px;
   margin-bottom: 40px;
   color: rgb(27, 30, 24);
-  background-color: #c4beb5;
   overflow: hidden;
   padding: 0 20px;
   margin: 0 auto;
@@ -147,9 +164,8 @@ h1 {
   text-align: center;
   padding: 15px;
   color: rgb(27, 30, 24);
-  background-color: #c4beb5;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 20px;
   margin: 0 auto;
   max-width: 1000px;
 }
@@ -188,7 +204,7 @@ h1 {
   color: rgb(75, 75, 75);
 }
 
-.list{
+.list {
   text-align: center;
   font-weight: bold;
   font-size: 20px;
@@ -244,14 +260,15 @@ h1 {
   justify-content: center;
   align-items: center;
   background-color: #c4beb5;
-  border-color: black;
+  border: 2px solid black;
   overflow: hidden;
   padding: 20px;
+  margin: 0 auto;
   margin-bottom: auto;
   max-width: 1000px;
 }
 
-.name{
+.name {
   text-align: center;
   width: 100%;
   padding: 12px 20px;
@@ -259,7 +276,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.email{
+.email {
   text-align: center;
   width: 100%;
   padding: 12px 20px;
@@ -267,7 +284,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.location{
+.location {
   text-align: center;
   width: 100%;
   padding: 12px 20px;
@@ -275,7 +292,7 @@ h1 {
   box-sizing: border-box;
 }
 
-.reason{
+.reason {
   text-align: center;
   width: 100%;
   padding: 12px 20px;
