@@ -269,7 +269,6 @@ h1 {
 }
 
 .name {
-  text-align: center;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -277,7 +276,6 @@ h1 {
 }
 
 .email {
-  text-align: center;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -285,7 +283,6 @@ h1 {
 }
 
 .location {
-  text-align: center;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -293,7 +290,6 @@ h1 {
 }
 
 .reason {
-  text-align: center;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
